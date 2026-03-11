@@ -1,4 +1,4 @@
-# Unidad 0 - Transición a Java 
+# Unidad 0, transición a Java equipo 1
 
 ## Integrantes
 Juan Baldenegro, Trinidad Bunge, Romina Cantoni, Maximiliano López y Paulina Silveira.
