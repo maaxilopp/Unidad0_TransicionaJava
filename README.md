@@ -14,3 +14,8 @@ Juan Baldenegro, Trinidad Bunge, Romina Cantoni, Maximiliano López y Paulina Si
 - Programar tareas básicas de manipulación de strings en JAVA
 - Construir programas Java que permitan leer y escribir archivos de texto
 
+
+ ## EJERCICIO 1 (compilación y ejecución)
+
+Para compilar el programa desde la línea de comandos, ubicarse en la carpeta `src` y ejecutar `javac ejercicios/ejercicio1/PruebaAtributos.java`. Esto genera el archivo compilado `.class`. Luego el programa se ejecuta con `java ejercicios.ejercicio1.PruebaAtributos`, usando el nombre del paquete seguido de la clase.
+
