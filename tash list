@@ -1,0 +1,24 @@
+[33mb66f2d4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mEjercicio-3-Maxi[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull origin main: Fast-forward
+[33m4d1ba2c[m[33m ([m[1;31morigin/Ejercicio-3-Maxi[m[33m)[m HEAD@{1}: reset: moving to HEAD
+[33m4d1ba2c[m[33m ([m[1;31morigin/Ejercicio-3-Maxi[m[33m)[m HEAD@{2}: checkout: moving from main to Ejercicio-3-Maxi
+[33m764f523[m[33m ([m[1;32mmain[m[33m)[m HEAD@{3}: commit: Minimo detalle
+[33m3814a17[m HEAD@{4}: pull origin main: Fast-forward
+[33m13d9e36[m HEAD@{5}: checkout: moving from Ejercicio-3-Maxi to main
+[33m4d1ba2c[m[33m ([m[1;31morigin/Ejercicio-3-Maxi[m[33m)[m HEAD@{6}: commit: Subo explicación del ejercicio 3 que me faltó
+[33m50ab3ab[m HEAD@{7}: commit: Subo ejercicio 3 completo
+[33m13d9e36[m HEAD@{8}: checkout: moving from Ejercicio-3-Maxi to Ejercicio-3-Maxi
+[33m13d9e36[m HEAD@{9}: pull: Fast-forward
+[33m6bf50a0[m HEAD@{10}: checkout: moving from main to Ejercicio-3-Maxi
+[33m13d9e36[m HEAD@{11}: pull origin main: Fast-forward
+[33m6bf50a0[m HEAD@{12}: checkout: moving from Ejercicio-3-Maxi to main
+[33m6bf50a0[m HEAD@{13}: checkout: moving from 2e0befd623202a2aac93ed1332498cdbc49a3159 to Ejercicio-3-Maxi
+[33m2e0befd[m HEAD@{14}: checkout: moving from main to 2e0befd
+[33m6bf50a0[m HEAD@{15}: rebase (finish): returning to refs/heads/main
+[33m6bf50a0[m HEAD@{16}: rebase (start): checkout origin/main
+[33md7ea572[m HEAD@{17}: reset: moving to HEAD
+[33md7ea572[m HEAD@{18}: checkout: moving from main to main
+[33md7ea572[m HEAD@{19}: checkout: moving from Ejercicio-3-Maxi to main
+[33m6bf50a0[m HEAD@{20}: checkout: moving from main to Ejercicio-3-Maxi
+[33md7ea572[m HEAD@{21}: commit (merge): Merge remote-tracking branch 'origin/main'
+[33m2e0befd[m HEAD@{22}: commit: a
+[33m6729b79[m HEAD@{23}: clone: from https://github.com/maaxilopp/Unidad0_Transici-naJava.git

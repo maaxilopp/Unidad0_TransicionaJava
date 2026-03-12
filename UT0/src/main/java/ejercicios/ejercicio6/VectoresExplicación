@@ -1,0 +1,9 @@
+Explicación de la estrategia usada.
+
+Se valida antes de operar. "if (array1.length == array2.length)". Esta linea se encarga de eso.
+En caso de no ser iguales, la multiplicación elemento a elemento no es posible, informandoselo
+al usuario.
+
+Si la validación es pasada, se recorren las posiciones con un for,
+luego se multiplica el elemento i del primer vector por el elemento i del segundo.
+guardando el resultado en un tercer vector, que al momento de ejecutar el programa se imprime.
