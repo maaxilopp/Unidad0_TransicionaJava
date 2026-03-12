@@ -1,5 +1,5 @@
 Explicación de que en que casos es conveniente usar cada uno de los controles de flujo trabajados a lo largo del ejercicio.
 
 While: Cuando esperás input del usuario o procesás datos hasta que , se cumpla una condición desconocida. Por ejemplo, sumar los numeros que ingrese el usuario hasta que ingrese un 0.
-Do While: Se usa cuando el bloque debe ejecutarse al menos una vez antes de verificar la condición. Por ejemplo, lo usé en el caso del ejercicio para mostrar las opciones posibles primero, dejar que el usuario escriba con que control de flujo desea ver el contador y si ingresa una opcion no valida, volverle a mostrar el menú de opciones.
+Do While: Se usa cuando el bloque debe ejecutarse al menos una vez antes de verificar la condición. Por ejemplo, lo usé en el caso del ejercicio para mostrar las opciones posibles primero, dejar que el usuario escriba con que control de flujo desea ver el contador y si no ingresa la opción 4, volverle a mostrar el menú de opciones.
 For: Cuando sabés exactamente cuántas iteraciones son necesarias. Por ejemplo, si queres imprimir los numeros del 1 al 20, sabes que necesitas 20 iteraciones, ni más ni menos.
