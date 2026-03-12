@@ -10,7 +10,7 @@ public class Contador {
 
     // Primero, demuestro diferencia entre un atributo static y uno de instancia
     // En un atributo de instancia, Cada objeto tiene su propio atributo, como en el caso del contador 4 y 5, que tienen distinto incremento pero ambos son contadores igualmente.
-    // En un atributo static, el objeto pertenece a la clase, siendo que si se modifica, todos se verían afectados por la modificación, cómo en el caso de MAX_COUNT, por ejemplo.
+    // En un atributo static, el objeto pertenece a la clase, siendo que si se modifica, todos se verían afectados por la modificación, cómo en el caso de MAX_CONT, por ejemplo.
 
         Contador contador4 = new Contador();
         contador4.incremento = 2;
