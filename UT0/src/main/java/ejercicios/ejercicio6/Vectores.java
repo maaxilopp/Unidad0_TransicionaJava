@@ -8,6 +8,7 @@ public class Vectores {
     static int[] array1; // Primer vector
     static int[] array2; // Segundo vector
     static int[] array3; // Tercer vector (resultado)
+    static boolean validada = false;
 
     static Scanner sc = new Scanner(System.in);
 
@@ -33,6 +34,7 @@ public class Vectores {
     //En caso de que se cumpla la condición, multiplico los elementos de igual posición y le asigno el resultado a la misma posición del vector resultado.
     static void calcular() {
         if (array1.length == array2.length) {
+            validada = true;
             for (int i = 0; i < array1.length; i++) {
                 array3[i] = array1[i] * array2[i];
             }
@@ -41,7 +43,7 @@ public class Vectores {
     // En salida muestro como queda el vector resultado luego de las multiplicaciones.
     // Si la multiplicación no se pudo hacer, se le notifica al usuario.
     static void salida() {
-        if (array2.length == array1.length) {
+        if (validada) {
             System.out.println("El resultado de la multiplicación de el vector: " + Arrays.toString(array1) + " por el vector: " + Arrays.toString(array2) + " Es igual a: " + Arrays.toString(array3) + ".");
         } else {
             System.out.println("Operación invalida, vectores de diferente longitud.");
@@ -53,5 +55,6 @@ public class Vectores {
         entrada();
         calcular();
         salida();
+        sc.close();
     }
 }
