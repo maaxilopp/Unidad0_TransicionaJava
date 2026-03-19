@@ -1,0 +1,11 @@
+Informe palíndromos:
+Los palíndromos son palabras o frases que se leen igual de izquierda a derecha que de derecha a izquierda.
+Para verificar si una frase es un palíndromo, es necesario limpiar el texto eliminando espacios, signos de puntuación
+y convirtiendo todas las letras a minúsculas.
+
+
+String inmutable:
+Los String son inmutables, o sea que no se pueden cambiar una vez creados. Si usás métodos como toLowerCase
+o replace, en realidad no modifican el string original, sino que crean uno nuevo. Esto afecta la solución del palíndromo
+porque tenés que ir guardando los cambios en nuevas variables y no podés trabajar directamente sobre la misma cadena.
+Por ejemplo, para limpiar o invertir el texto necesitás crear otro string o usar algo como StringBuilder.

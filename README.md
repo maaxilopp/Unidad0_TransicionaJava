@@ -19,3 +19,14 @@
 
 Para compilar el programa desde la línea de comandos, ubicarse en la carpeta 'ejercicio1' y ahí corres java PruebasAtributos.java.
 
+
+ ## Glosario POO (Ejercicio 9)
+- Clase: plantilla o modelo que define las características y comportamientos de un tipo de objeto.
+- Objeto: instancia de una clase, es decir, un elemento creado a partir de esa plantilla.
+- Atributo: variable que pertenece a una clase y almacena datos del objeto.
+- Método: función definida dentro de una clase que describe una acción o comportamiento.
+- Instancia: objeto concreto creado a partir de una clase.
+- Herencia: mecanismo por el cual una clase puede heredar atributos y métodos de otra.
+- Polimorfismo: capacidad de un método de comportarse de diferentes formas según el objeto que lo utiliza.
+- Encapsulamiento: principio que consiste en ocultar los detalles internos de una clase y acceder a ellos mediante métodos.
+- Abstracción: proceso de mostrar solo la información relevante y ocultar los detalles innecesarios.
