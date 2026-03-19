@@ -1,4 +1,4 @@
-package  ejercicios.ejercicio4;
+package  ejercicios.ejercicio04;
 
 public class UtilMath {
     public static int factorial(int num) {

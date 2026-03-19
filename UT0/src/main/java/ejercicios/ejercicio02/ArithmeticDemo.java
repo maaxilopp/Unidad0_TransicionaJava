@@ -1,4 +1,4 @@
-package ejercicios.ejercicio2;
+package ejercicios.ejercicio02;
 
 
 class ArithmeticDemo {

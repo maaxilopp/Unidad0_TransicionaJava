@@ -1,4 +1,4 @@
-package ejercicios.ejercicio1;
+package ejercicios.ejercicio01;
 
 
 class PruebasAtributos {

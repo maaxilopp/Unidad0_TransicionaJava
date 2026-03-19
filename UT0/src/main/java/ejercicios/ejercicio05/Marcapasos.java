@@ -1,4 +1,4 @@
-package ejercicios.ejercicio5;
+package ejercicios.ejercicio05;
 
 public class Marcapasos {
     private int idDispositivo;
