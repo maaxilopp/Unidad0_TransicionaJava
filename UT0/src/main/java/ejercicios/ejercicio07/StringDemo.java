@@ -1,4 +1,4 @@
-package ejercicios.ejercicio7;
+package ejercicios.ejercicio07;
 public class StringDemo {
 
     public static void main(String[] args) {

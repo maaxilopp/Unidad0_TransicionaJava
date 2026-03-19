@@ -1,4 +1,4 @@
-package ejercicios.ejercicio8;
+package ejercicios.ejercicio08;
 
 public class EjemploStringBuilder {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ejercicios.ejercicio6;
+package ejercicios.ejercicio06;
 // La sobrecarga de metodos permite tener dos metodos con el mismo nombre, en este caso "multsuma", pero diferentes parametros.
 // Java, decide cual ejecutar segun los argumentos que recibe.
 public class Multsuma {

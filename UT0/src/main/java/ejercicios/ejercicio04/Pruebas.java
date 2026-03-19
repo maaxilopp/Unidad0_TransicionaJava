@@ -1,4 +1,4 @@
-package ejercicios.ejercicio4;
+package ejercicios.ejercicio04;
 
 import static ejercicios.ejercicio4.UtilMath.*;
 

@@ -1,4 +1,4 @@
-package ejercicios.ejercicio3;
+package ejercicios.ejercicio03;
 import java.util.Scanner;
 
 public class Contador {
