@@ -10,7 +10,7 @@ public class EjemploEnum {
         int contadorConsonantes = 0;
         int contadorDigitos = 0;
         int contadorOtro = 0;
-        String test = "!Hola Mundo¡ Me llamo Maximiliano y tengo 19 años.";
+        String test = "AEIOÚ m.2007";
         System.out.println("Texto Original: " + test);
 
         // Convertimos todo a minúsculas para simplificar las comparaciones
