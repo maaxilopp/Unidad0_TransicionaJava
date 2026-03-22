@@ -1,6 +1,6 @@
 package ejercicios.ejercicio04;
 
-import static ejercicios.ejercicio4.UtilMath.*;
+import static ejercicios.ejercicio04.UtilMath.*;
 
 public class Pruebas {
 
