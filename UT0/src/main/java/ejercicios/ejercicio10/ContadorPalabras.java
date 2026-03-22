@@ -1,4 +1,4 @@
-package ejercicios.ejecicio10;
+package ejercicios.ejercicio10;
 //importamos las colecciones. La necestiamos porque no sabemos el largo del archivo de antemano
 
 import java.util.ArrayList;
