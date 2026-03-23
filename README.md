@@ -17,8 +17,13 @@
 
  ## EJERCICIO 1 (compilación y ejecución)
 
-Para compilar el programa desde la línea de comandos, ubicarse en la carpeta 'ejercicio1' y ahí corres java PruebasAtributos.java.
+Para compilar y ejecutar el programa desde la línea de comandos,  es necesario ubicarse 
+en la carpeta raíz del proyecto desde la consola, e ingresar:
 
+    javac ejercicios/ejercicio01/PruebasAtributos.java 
+    java ejercicios.ejercicio01.PruebasAtributos
+"javac" compila el archivo.
+"java" ejecuta el programa.
 
  ## Glosario POO (Ejercicio 9)
 - Clase: plantilla o modelo que define las características y comportamientos de un tipo de objeto.
