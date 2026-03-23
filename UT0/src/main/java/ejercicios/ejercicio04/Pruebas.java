@@ -30,7 +30,7 @@ public class Pruebas {
             System.out.println("Suma de pares de " + n + ": " + sumaParesHasta(n));
         } else {
             System.out.println(n + " no es primo");
-            System.out.println("Suma de impares de " + n + ": " sumaImparesHasta(n));
+            System.out.println("Suma de impares de " + n + ": " + sumaImparesHasta(n));
         }
     }
 }
