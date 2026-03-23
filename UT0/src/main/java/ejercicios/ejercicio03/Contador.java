@@ -9,7 +9,8 @@ public class Contador {
     public static void main(String[] args) {
         // Primero, demuestro diferencia entre un atributo static y uno de instancia
         // En un atributo de instancia, Cada objeto tiene su propio atributo, como en el caso del contador 4 y 5, que tienen distinto incremento pero ambos son contadores igualmente.
-        // En un atributo static, el objeto pertenece a la clase, siendo que si se modifica, todos se verían afectados por la modificación, cómo en el caso de MAX_CONT, por ejemplo.
+        // En un atributo static, el objeto pertenece a la clase, siendo que si se modifica, todos se verían afectados por la modificación, cómo en el caso de MAX_CONT, por ejemplo,
+        // MAX_CONT al ser final también,su valor (10) no puede cambiar nunca.
         demostrarStaticVsInstancia();
 
         // Luego sigo con el switch, le solicito al usuario una opción.
