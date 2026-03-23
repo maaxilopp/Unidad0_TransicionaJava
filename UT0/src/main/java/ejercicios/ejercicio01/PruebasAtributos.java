@@ -55,5 +55,5 @@ class PruebasAtributos {
         Error: no se permiten espacios
 
          */
-
-    }}
+    }
+}
