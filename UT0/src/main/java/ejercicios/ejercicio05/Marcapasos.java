@@ -30,16 +30,16 @@ public class Marcapasos {
     //por ultimo, el nivel de bateria disminuye gradualemente y dependiendo como es implementado si se puede acceder o no al setter.
 
     //GETTERS
-    public int GetId(){
+    public int getId(){
         return idDispositivo;
     }
-    public String GetCodigoFab(){
+    public String getCodigoFab(){
         return codigoFabricante;
     }
-    public int GetLatidos(){
+    public int getLatidos(){
         return latidosPorMinuto;
     }
-    public int GetBateria(){
+    public int getBateria(){
         return nivelBateria;
     }
 
