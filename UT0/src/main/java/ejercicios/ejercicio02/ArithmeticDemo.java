@@ -45,5 +45,5 @@ class ArithmeticDemo {
 
 /*Explicar con detalle qué ocurre en la instrucción: int a = 5; int i = 3; a += ++i;
     Se le asigna 5 a la variable a y 3 a la variable i.
-    a += ++i es equivalente a realizar a + (i + 1)
+    La instrucción a += ++i incrementa primero el valor de i en 1 y luego suma ese nuevo valor a "a".
  */
