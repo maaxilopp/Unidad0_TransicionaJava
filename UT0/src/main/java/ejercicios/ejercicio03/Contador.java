@@ -57,6 +57,7 @@ public class Contador {
                     System.out.println("Opción no válida");
             }
         } while (elegida != 4);
+        scanner.close();
     }
 
     private static void demostrarStaticVsInstancia() {
