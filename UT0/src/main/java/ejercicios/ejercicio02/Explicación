@@ -1,0 +1,7 @@
+Explicación de orden de evaluación de 3 expresiones
+
+1) En int result = 1 + 2,  Se evalúa 1 + 2 = 3, luego se asigna el valor a result.
+2) En result %= 7, Se calcula 4 %  7 = 4, se asigna a result. % representa el resto de la división.
+3) En int a = 5; int i = 3; a += ++i, primero se evalúa ++i, que al ser 
+   pre-incremento sube i de 3 a 4 antes de usarse. Luego a += 4 se expande 
+   a a = a + 4, es decir a = 5 + 4, dando como resultado a = 9.
