@@ -2,7 +2,10 @@ package  ejercicios.ejercicio04;
 
 public class UtilMath {
     public static int factorial(int num) {
-        // Caso borde: número negativo
+        // Casos borde:
+        // 0 y 1, resultado 1 (por definición matemática)
+        // negativos,lanza excepción
+        // num > 12 = desbordamiento de int, el resultado no es confiable
         if (num < 0) {
             throw new IllegalArgumentException("El factorial no está definido para negativos");
         }
