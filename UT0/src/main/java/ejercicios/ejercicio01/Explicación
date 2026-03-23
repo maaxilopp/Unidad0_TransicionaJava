@@ -1,0 +1,15 @@
+JVM, JDK y JRE, ¿Qué son?
+
+JDK (Java Development Kit): es el kit completo para desarrollar en Java.
+Incluye el compilador (javac), herramientas y el JRE.
+
+JRE (Java Runtime Environment): es lo que se necesita tener instalado para 
+poder correr un programa Java. Adentro tiene la JVM y todo lo necesario 
+para que el programa funcione.
+
+JVM: Cuando compilás con javac, el código se convierte en bytecode, y la JVM 
+es la que lo lee y lo corre. Por eso Java funciona en cualquier sistema 
+operativo sin tener que cambiar nada.
+
+En resumidas cuentas, el JDK lo usás para escribir y compilar el código, el JRE es 
+lo que necesitás para ejecutarlo, y la JVM es la que lo corre en realidad. 
