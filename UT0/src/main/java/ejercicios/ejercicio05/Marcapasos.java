@@ -1,24 +1,26 @@
 package ejercicios.ejercicio05;
 
+import java.util.Objects;
+
 public class Marcapasos {
     private int idDispositivo;
     private String codigoFabricante;
     private int latidosPorMinuto;
-    private int nivelBateria;
+    private byte nivelBateria;
 
     /*byte	1 byte
     short	2 bytes
     char	2 bytes
     int	    4 bytes*/
 
-    public static int contadorInstancias = 0; //controla can de instancias creadas
+    private static int contadorInstancias = 0; //controla can de instancias creadas
 
 
     //CONSTRUCTOR
-    public Marcapasos(int id,String cod,int lats){
+    public Marcapasos(int id,String cod){
         this.idDispositivo = id  ;
         this.codigoFabricante=cod + "cte"; //se agrega el cte de fabrica a cada instancia
-        this.latidosPorMinuto=lats;
+        this.latidosPorMinuto= 60; // valor por defecto
         this.nivelBateria=100;
         contadorInstancias++; //cada vez que se crea una instancia se sube el valor del contador
     }
@@ -42,11 +44,12 @@ public class Marcapasos {
     }
 
     //SETTERS
-    public void SetId(int unId){
-        this.idDispositivo = unId;
+    public void setLatidosPorMinuto(short latidos) {
+        this.latidosPorMinuto = latidos;
     }
-    public void SetCodigo(String unCodigo){
-        this.codigoFabricante = unCodigo;
+
+    public void setNivelBateria(byte nivel) {
+        this.nivelBateria = nivel;
     }
 
     //METODOS
@@ -57,4 +60,20 @@ public class Marcapasos {
                 "Latidos: " + latidosPorMinuto + "\n" +
                 "Nivel de bateria: " + nivelBateria + "\n";
     }
+    // equals
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Marcapasos)) return false;
+        Marcapasos that = (Marcapasos) o;
+        return idDispositivo == that.idDispositivo &&
+                Objects.equals(codigoFabricante, that.codigoFabricante);
+    }
+
+    // hashCode
+    @Override
+    public int hashCode() {
+        return Objects.hash(idDispositivo, codigoFabricante);
+    }
 }
+

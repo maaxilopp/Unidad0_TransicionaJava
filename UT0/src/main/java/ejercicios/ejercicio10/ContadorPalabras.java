@@ -1,6 +1,7 @@
 package ejercicios.ejercicio10;
 //importamos las colecciones. La necestiamos porque no sabemos el largo del archivo de antemano
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner; // Liberaria para leer strings
 
@@ -10,7 +11,7 @@ public class ContadorPalabras {
     public String[] obtenerLineas(String archivo) {
         ArrayList<String> lineas = new ArrayList<>();
         try { //en caso de fallar en la lectura del archivo lanza una expecion.
-            Scanner scan = new Scanner(archivo);
+            Scanner scan = new Scanner(new File(archivo));
             while (scan.hasNextLine()) {
                 String nuevaLinea = scan.nextLine();
                 lineas.add(nuevaLinea);
@@ -31,8 +32,8 @@ public class ContadorPalabras {
 
     public int CalcularCantPalabrasLinea(String[] arr) {
         int contadorPalabras = 0;
-        for (int i = 0; i < arr.length; i++) {
-            Scanner scan = new Scanner(arr[i]);
+        for (String linea: arr) {
+            Scanner scan = new Scanner(linea);
             while (scan.hasNext()) {
                 contadorPalabras++; //si existe un palabra cuenta
                 scan.next(); //llama a la siguiente palabra
@@ -69,32 +70,27 @@ public class ContadorPalabras {
     }
 
     //con Arreglos
-    public String[] palabrasComunesAreglos(String[] a, String[] b) {
-        //Tenemos que comprar el largo de los arreglos. El tamaño del nuevo arreglo que contendra las palabras comunes
-        // va a ser el mismo que el de menor largo.
-        int min;
-        if (a.length < b.length) {
-            min = a.length;
-        } else {
-            min = b.length;
-        }
+    public String[] palabrasComunesArreglos(String[] a, String[] b) {
+        int min = Math.min(a.length, b.length);
         String[] comunes = new String[min];
+        int contador = 0;
 
-        if (a.length < b.length) {
-            for (int i = 0; i < a.length; i++) { //Agarramos los elementos de a
-                for (int j = 0; j < b.length; j++) { //Recorremos todo b por aca elemento de a
-                    if (a[i].equals(b[j])) {
-                        comunes[i] = a[i];
+        for (String palabraA : a) {
+            for (String palabraB : b) {
+                if (palabraA.equals(palabraB)) {
+                    // Verificar si ya está agregada (evitar duplicados)
+                    boolean existe = false;
+                    for (int k = 0; k < contador; k++) {
+                        if (comunes[k] != null && comunes[k].equals(palabraA)) {
+                            existe = true;
+                            break;
+                        }
                     }
-                }
-            }
-        } else {
-            for (int i = 0; i < b.length; i++) { //Agarramos los elementos de b
-                for (int j = 0; j < a.length; j++) { //Recorremos todo a por aca elemento de a
-                    if (b[i].equals(a[j])) {
-                        comunes[i] = b[i];
-                        break;
+                    if (!existe) {
+                        comunes[contador] = palabraA;
+                        contador++;
                     }
+                    break;
                 }
             }
         }
