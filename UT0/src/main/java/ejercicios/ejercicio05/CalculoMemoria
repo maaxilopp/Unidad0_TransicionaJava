@@ -1,12 +1,12 @@
-int (idDispositivo) → 4 bytes
-int (latidos) → 4 bytes
-byte (bateria) → 1 byte
-String (codigoFabricante) → 8 bytes
+int (idDispositivo) = 4 bytes
+int (latidos) = 4 bytes
+byte (bateria) = 1 byte
+String (codigoFabricante) = 8 bytes
 
 TOTAL = 4 + 8 + 4 + 1 = 17 bytes
 
 Aclaraciones:
-- Se considera que la referencia a String ocupa 8 bytes (JVM de 64 bits).
-- No se incluye el tamaño interno del objeto String.
-- No se considera el overhead del objeto (cabecera de objeto de la JVM).
-- No se considera padding o alineación de memoria.
+1. Se considera que la referencia a String ocupa 8 bytes (JVM de 64 bits).
+2. No se incluye el tamaño interno del objeto String.
+ 3.No se considera el overhead del objeto (cabecera de objeto de la JVM).
+4. No se considera padding o alineación de memoria.
