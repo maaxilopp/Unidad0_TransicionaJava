@@ -38,7 +38,7 @@ public class StringDemo {
     public static void probarPalindromo(String frase) {
 
         // Normalizar: minúsculas y sin signos
-        String limpia = frase.toLowerCase().replaceAll("[áéíóú]", "");
+        String limpia = frase.toLowerCase().replaceAll("[^a-z]", "");
 
         String invertida = new StringBuilder(limpia).reverse().toString();
 
