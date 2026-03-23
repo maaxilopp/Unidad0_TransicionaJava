@@ -10,7 +10,7 @@ public class ContadorPalabrasAvanzado extends ContadorPalabras {
         }
 
         // elimina signos de puntuación
-        String limpio = texto.replaceAll("[áéíóúÁÉÍÓÚñÑ]", "");
+        String limpio = texto.replaceAll("[áéíóú]", "");
 
         return super.contarPalabras(limpio);
     }
